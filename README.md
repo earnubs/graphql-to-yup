@@ -22,7 +22,7 @@ You will need to create a `codegen.yml` file
 schema: point/to/your/schema.graphql
 generates:
   the-output-file.js:
-    - @ovidb/graphql-to-yup:
+    - '@ovidb/graphql-to-yup':
         inputTypeNames:
           - TheTypesYouWantToGenerateSchemaFor
           - AnotherInputType
